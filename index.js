@@ -117,12 +117,12 @@ const addUdharToLocaleStorage = (e) => {
     person_name.value = ''
     price.value = 0
 
-    console.log(udharRecords);
-
 }
 
 receive_btn.addEventListener('click', (e) => {
     addUdharToLocaleStorage(e)
+    console.log(e, 'receive was clicked');
+    
 })
 
 pay_btn.addEventListener('click', (e) => {
